@@ -61,7 +61,7 @@ def main():
         # print 'em all
         for row in reader:
             
-            # specify the path to pdf
+            # specify the path to pdf, preceded by r or R for string literal (otherwise need to escape backslashes)
             pdf = row[0]
             
             # print it
